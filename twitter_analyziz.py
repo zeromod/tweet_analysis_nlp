@@ -32,7 +32,7 @@ print(positive)
 percentage_positive = (positive/total)*float(100)
 percentage_negative = (negative/total)*100
 percentage_neutral = (neutral/total)*100
-print("total tweet taken ==> %d" %total)
+print("Tweet taken ==> %d" %total)
 print("positive tweet percent ==> %0.3d %%" %percentage_positive)
 print("negative tweet percent ==> %0.3d %%" %percentage_negative)
 print("neutral tweet percent ==> %0.3d %%" %percentage_neutral)
